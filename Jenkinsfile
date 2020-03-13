@@ -1,5 +1,5 @@
 pipeline {
- agent any {
+ agent any 
      stages ('--clean--') {
          step {
             sh "mvn clean"
