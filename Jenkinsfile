@@ -6,9 +6,9 @@ pipeline {
             
           }
           }
-          stage('--test'--') {
+          stage('--test--') {
            step {
-            sh  " mvn test"
+            sh  "mvn test"
           }
           }
           stage('--package--') {
